@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table width="100%">
+        <tbody>
+            <tr valign="top">
+                <td>
+                    <ul>
+                        <li><a href="#">Account</a></li>
+                        <li><a href="#">Dashboard</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Calendar</a></li>
+                        <li><a href="#">Inbox</a></li>
+                        <li><a href="#">History</a></li>
+                        <li><a href="#">Studio</a></li>
+                        <li><a href="#">Commons</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="#">Modules</a></li>
+                        <li><a href="#">Piazza</a></li>
+                        <li><a href="#">Zoom Meetings</a></li>
+                        <li><a href="#">Assignments</a></li>
+                        <li><a href="#">Quizzes</a></li>
+                        <li><a href="grades.html">Grades</a></li>
+                        <li><a href="#">People</a></li>
+                        <li><a href="#">Panopto Video</a></li>
+                        <li><a href="#">Discussions</a></li>
+                        <li><a href="#">Announcements</a></li>
+                        <li><a href="#">Pages</a></li>
+                        <li><a href="#">Files</a></li>
+                        <li><a href="#">Rubrics</a></li>
+                        <li><a href="#">Outcomes</a></li>
+                        <li><a href="#">Collaborations</a></li>
+                        <li><a href="#">Syllabus</a></li>
+                        <li><a href="#">Settings</a></li>
+                    </ul>
+                </td>
+                <td>
+                    <table width="100%">
+                        <tbody>
+                            <tr>
+                                <select>
+                                    <option value="VAL1">Edit</option>
+                                    <option value="VAL2" selected>Speed Grader</option>
+                                    <option value="VAL3">Duplicate</option>
+                                    <option value="VAL4">Delete</option>
+                                    <option value="VAL5">Move To...</option>
+                                    <option value="VAL6">Send To...</option>
+                                    <option value="VAL7">Copy To...</option>
+                                    <option value="VAL8">Share to Commons</option>
+                                </select>
+                                <hr>
+                                <h2>Assignment Name</h2>
+                                <form id="edit-fields" action="index.html">
+                                    <input type ="text" id="asn-name" placeholder="Assignment Name" value="A1 - ENV + HTML"/>
+                                    <br/>
+                                    <br/>
+                                    <textarea cols="30" rows="5">This is the assignment description.</textarea>
+                                    <br/>
+                                    <br/>
+                                    Points
+                                    <br/>
+                                    <input type ="text" id="points" placeholder="Points" value="100"/>
+                                    <br/>
+                                    <br/>
+                                    Assignment Group
+                                    <select>
+                                        <option value="VAL1" selected>ASSIGNMENTS</option>
+                                    </select>
+                                    <br/>
+                                    <br/>
+                                    Display Grade as
+                                    <select>
+                                        <option value="VAL1" selected>Percentage</option>
+                                    </select>
+                                    <br/>
+                                    <br/>
+                                    Submission Type
+                                    <select>
+                                        <option value="VAL1" selected>Online</option>
+                                    </select>
+                                    <br/>
+                                    <br/>
+                                    <label>Online Entry Options</label>
+                                    <br/>
+                                    <input type="checkbox" value="Text Entry" name="t-entry" id="text-entry"/>
+                                    <label for="text-entry">Text Entry</label>
+                                    <br/>
+                                    <input type="checkbox" value="Website URL" name="w-url" id="web-url"/>
+                                    <label for="web-url">Website URL</label>
+                                    <br/>
+                                    <input type="checkbox" value="Media Recordings" name="m-record" id="med-record"/>
+                                    <label for="med-record">Media Recordings</label>
+                                    <br/>
+                                    <input type="checkbox" value="Student Annotation" name="s-annotation" id="s-annote"/>
+                                    <label for="s-annote">Student Annotation</label>
+                                    <br/>
+                                    <input type="checkbox" value="File Uploads" name="f-load" id="file-load"/>
+                                    <label for="file-load">File Uploads</label>
+                                    <br/>
+                                    <br/>
+                                    Submission Attempts
+                                    <select>
+                                        <option value="VAL1" selected>Unlimited</option>
+                                    </select>
+                                    <br/>
+                                    <br/>
+                                    Plaigarism Review
+                                    <select>
+                                        <option value="VAL1" selected>None</option>
+                                    </select>
+                                    <br/>
+                                    <br/>
+                                    <label>Group Assignment</label>
+                                    <br/>
+                                    <input type="checkbox" value="Group Assignment" name="group" id="group"/>
+                                    <label for="group">This is a group assignment</label>
+                                    <br/>
+                                    <br/>
+                                    <label>Peer Reviews</label>
+                                    <br/>
+                                    <input type="checkbox" value="Peer Reviews" name="p-rev" id="p-rev"/>
+                                    <label for="p-rev">Require Peer Reviews</label>
+                                    <br/>
+                                    <br/>
+                                    Assign
+                                    <br/>
+                                    Assign to
+                                    <br/>
+                                    <input type ="text" id="assign" placeholder="Everyone" value="Everyone"/>
+                                    <br/>
+                                    <br/>
+                                    <label>Due</label>
+                                    <br/>
+                                    <input type="date"
+                                        id="due-date"
+                                        value="2021-01-01"/><br/>
+                                    <br/>
+                                    <br/>
+                                    <label>Due</label>
+                                    <br/>
+                                    <input type="date"
+                                        id="until-date"
+                                        value="2021-01-01"/><br/>
+                                    <br/>
+                                    <br/>
+                                    <button>Cancel</button>
+                                    <button>Save</button>
+                                </form>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
