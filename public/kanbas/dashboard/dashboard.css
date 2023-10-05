@@ -1,0 +1,43 @@
+.wd-dashboard-text h2 {
+    font-weight: 200;
+}
+
+.wd-dashboard {
+    margin-bottom: 0;
+}
+
+.wd-courses h3 {
+    font-weight: 300;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.wd-row-override {
+    margin: 0px;
+}
+
+.wd-card-crop {
+    height: 140px;
+    max-width: 100%;
+}
+
+
+.wd-card-title {
+    font-size: 0.875rem;
+    margin-bottom: 0px;
+    color: #47a4b3;
+    font-weight: 500;
+}
+
+.wd-card-desc {
+    color: gray;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 0px;
+}
+
+.wd-card-desc-2 {
+    color: gray;
+    font-weight: 300;
+    font-size: 0.84rem;
+}

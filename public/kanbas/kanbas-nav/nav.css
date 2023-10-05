@@ -1,0 +1,44 @@
+.wd-col-20pc {
+    float: left;
+    width: 20%;
+}
+
+.wd-col-60pc {
+    float: left;
+    width: 60%;
+}
+
+.wd-kanbas-navigator {
+    background-color: black;
+    color: white;
+    padding: 0px;
+    width: 80px;
+    font-size: 0.8em;
+    height: 100vh;
+}
+
+.wd-kanbas-navigator li {
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.wd-kanbas-navigator li a {
+    color: white;
+    text-decoration: none;
+}
+
+.wd-kanbas-logo {
+    width: 65px;
+    padding-bottom: 5px;
+}
+
+.wd-kanbas-selected {
+    background-color: white;
+    color: black;
+}
+
+#wd-kanbas-selected-text {
+    color: red;
+}

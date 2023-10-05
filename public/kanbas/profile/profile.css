@@ -1,0 +1,112 @@
+.wd-profile {
+    display: flex;
+    flex-direction: row;
+}
+
+.wd-navbar {
+    width: 80px;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+}
+
+.wd-side-of-nav {
+    margin-left: 80px;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-float-right {
+    float: right;
+}
+
+.wd-flex-row-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.wd-flex-grow-1 {
+    flex-grow: 1;
+}
+
+.wd-navlist a {
+    text-decoration: none;
+    color: #db1a1a;
+    margin-right: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+.wd-navlist ul li {
+    padding: 8px 0px;
+
+}
+
+.wd-header p {
+    margin: 0px 0px 0px 30px;
+    padding: 0px;
+    color: black;
+}
+
+.wd-header {
+    display: flex;
+    margin: 0px 28px;
+    justify-content: center;
+    height: 70px;
+    flex-direction: column;
+}
+
+.wd-vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+.wd-centered-hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #000;
+    padding: 0px;
+    margin: 0px 28px;
+}
+
+.wd-content {
+    margin: 20px 0px 0px 0px
+}
+
+#wd-column-selected {
+    color: black;
+    border-left: 4px solid #000;
+    padding-left: 8px;
+}
+
+.wd-flex-row-container a, .wd-flex-row-container a:hover {
+    text-decoration: none;
+    color: #db1a1a;
+}
+
+
+.wd-profile-info, .wd-profile-info h2, .wd-profile-info h3 {
+    padding-right: 40px;
+    font-weight: 300;
+}
+
+
+.wd-edit-button {
+    margin: 0px 30px 0px 10px;
+}
+
+.wd-kanbas-navigator li i {
+    color: #db1a1a;
+}
+
+.wd-kanbas-navigator li a i {
+    color: #db1a1a;
+}
+
+.wd-navlist ul li a {
+    font-weight: 300;
+}
