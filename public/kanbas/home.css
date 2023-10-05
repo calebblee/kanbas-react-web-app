@@ -1,0 +1,6 @@
+.wd-breadcrumb ol{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}

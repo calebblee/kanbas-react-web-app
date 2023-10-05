@@ -31,10 +31,14 @@
     flex-grow: 1;
 }
 
+.wd-navlist {
+    width: 200px;
+    margin-right: 50px;
+}
+
 .wd-navlist a {
     text-decoration: none;
     color: #db1a1a;
-    margin-right: 50px;
 }
 
 ul {
@@ -43,6 +47,7 @@ ul {
 
 .wd-navlist ul li {
     padding: 8px 0px;
+    width: 150px;
 
 }
 
@@ -74,7 +79,8 @@ ul {
 }
 
 .wd-content {
-    margin: 20px 0px 0px 0px
+    margin: 20px 0px 0px 0px;
+    
 }
 
 #wd-column-selected {
