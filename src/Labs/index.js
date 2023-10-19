@@ -1,9 +1,12 @@
 import Assignment3 from "./a3";
-import HelloWorld from "./a3";
+import Nav from "../Nav";
 
 function Labs() {
     return (
-        <Assignment3 />
+        <div>
+            <Nav/>
+            <Assignment3 />
+        </div>
     );
 }
 export default Labs;
