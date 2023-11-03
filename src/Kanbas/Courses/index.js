@@ -7,8 +7,9 @@ import Assignments from "./Assignments";
 import AssignmentEditor from "./Assignments/AssignmentEditor";
 
 function Courses() {
-  const { courseId } = useParams();
-  const course = db.courses.find((course) => course._id === courseId);
+  const { courseID } = useParams();
+  const course = db.courses.find((course) => course._id === courseID);
+
   return (
     <div>
       <h1>Course {course.name}</h1>

@@ -9,18 +9,18 @@ function AssignmentEditor() {
     (assignment) => assignment._id === assignmentId);
 
 
-  const { courseId } = useParams();
+  const { courseID } = useParams();
   const navigate = useNavigate();
   const handleSave = () => {
     console.log("Actually saving assignment TBD in later assignments");
-    navigate(`/Kanbas/Courses/${courseId}/Assignments`);
+    navigate(`/Kanbas/Courses/${courseID}/Assignments`);
   };
   return (
     <div>
       <h2>Assignment Name</h2>
       <input value={assignment.title}
              className="form-control mb-2" />
-      <Link to={`/Kanbas/Courses/${courseId}/Assignments`}
+      <Link to={`/Kanbas/Courses/${courseID}/Assignments`}
             className="btn btn-danger">
         Cancel
       </Link>

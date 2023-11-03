@@ -4,13 +4,13 @@ import db from "../../Database";
 
 
 function ModuleList() {
-  const { courseId } = useParams();
+  const { courseID } = useParams();
   const modules = db.modules;
   return (
     <ul className="list-group">
       {
        modules
-         .filter((module) => module.course === courseId)
+         .filter((module) => module.course === courseID)
          .map((module, index) => (
            <li key={index} className="list-group-item">
              <h3>{module.name}</h3>
