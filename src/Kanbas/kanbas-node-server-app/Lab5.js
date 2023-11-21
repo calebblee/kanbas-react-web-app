@@ -1,3 +1,5 @@
+import Database from "./Database/index.js";
+
 const assignment = {
     id: 1,
     title: "NodeJS Assignment",

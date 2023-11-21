@@ -11,7 +11,7 @@ function Courses() {
   const course = db.courses.find((course) => course._id === courseID);
 
   return (
-    <div>
+    <div className="container-fluid">
       <h1>Course {course.name}</h1>
       <CourseNavigation />
       <div>
