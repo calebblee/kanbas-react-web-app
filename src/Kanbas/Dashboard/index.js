@@ -6,7 +6,7 @@ import axios from 'axios';
 function Dashboard() {
   const [courses, setCourses] = useState([]);
   const [course, setCourse] = useState({});
-  const URL = "http://localhost:4000/api/courses";
+  const URL = "https://a6--funny-vacherin-731ed5.netlify.app/api/courses";
   const updateCourse = async (course) => {
     const response = await axios.put(
       `${URL}/${course._id}`,
