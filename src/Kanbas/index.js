@@ -5,6 +5,10 @@ import Dashboard from "./Dashboard";
 import Courses from "./Courses";
 import './index.css';
 import axios from 'axios';
+import Signin from './kanbas-node-server-app/users/signin';
+import Account from "./kanbas-node-server-app/users/account.js";
+import UserTable from "./kanbas-node-server-app/users/table.js";
+import Signup from "./kanbas-node-server-app/users/signup.js";
 
 function Kanbas() {
    const [courses, setCourses] = useState([]);
@@ -22,9 +26,12 @@ function Kanbas() {
          <div className="routes">
             <Routes>
                <Route path="/" element={<Navigate to="Dashboard" />} />
-               <Route path="Account" element={<h1>Account</h1>} />
+               <Route path="Account" element={<Account />} />
                <Route path="Dashboard" element={<Dashboard />} />
                <Route path="Courses/:courseID/*" element={<Courses />} />
+               <Route path="Sign in" element={<Signin />} />
+               <Route path="Sign up" element={<Signup />} />
+               <Route path="admin/users" element={<UserTable />} />
             </Routes>
          </div>
       </div>
