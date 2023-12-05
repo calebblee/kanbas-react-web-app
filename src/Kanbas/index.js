@@ -12,7 +12,7 @@ import Signup from "./kanbas-node-server-app/users/signup.js";
 
 function Kanbas() {
    const [courses, setCourses] = useState([]);
-   const URL = "http://localhost:4000/api/courses";
+   const URL = "https://kanbas-node-server-app-mnvx.onrender.com/api/courses";
    const findAllCourses = async () => {
       const response = await axios.get(URL);
       setCourses(response.data);
