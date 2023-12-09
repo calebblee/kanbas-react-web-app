@@ -5,13 +5,8 @@ import db from "../../Database";
 
 function ModuleList() {
   const { courseID } = useParams();
-  const [modules, setModules] = useParams(db.modules);
-  const [module, setModule] = useState({
-    name: "New Module",
-    description: "New Description",
-    course: courseId,
-  });
-
+  const modules = db.modules;
+  
   return (
     <ul className="list-group">
       {
