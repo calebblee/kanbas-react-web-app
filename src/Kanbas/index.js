@@ -9,6 +9,8 @@ import Signin from './kanbas-node-server-app/users/signin';
 import Account from "./kanbas-node-server-app/users/account.js";
 import UserTable from "./kanbas-node-server-app/users/table.js";
 import Signup from "./kanbas-node-server-app/users/signup.js";
+import store from "./store";
+import { Provider } from "react-redux";
 
 function Kanbas() {
    const [courses, setCourses] = useState([]);
@@ -21,6 +23,7 @@ function Kanbas() {
       findAllCourses();
    }, []);
    return (
+      <Provider store={store}>
       <div className="container-fluid d-flex">
          <KanbasNavigation />
          <div className="routes">
@@ -35,6 +38,7 @@ function Kanbas() {
             </Routes>
          </div>
       </div>
+      </Provider>
    );
 }
 export default Kanbas;
